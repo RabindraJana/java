@@ -1,0 +1,15 @@
+public class SecondRowSum {
+    public static void main(String[] args) {
+        int [][] array= {
+            {1,2,3},
+            {4,5,6},
+            {7,8,9}
+        };
+        
+        int sum=0;
+        for(int j=0;j<array[0].length;j++){
+            sum+=array[1][j];
+        }
+        System.out.println("Sum of the second row: " + sum);
+    }
+}
